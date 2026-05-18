@@ -6,7 +6,7 @@ using namespace std;
 class Account {
 public:
     int accNo;
-    string name;
+    char name[100];
     float balance;
 
     void create() {
